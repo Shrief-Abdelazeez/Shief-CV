@@ -1,0 +1,1897 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin G:/Shrief/Shrief resume/Shrief-CV/
+\textclass memoir
+\begin_preamble
+%%% LaTeX Template: Designer's CV
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep the referal to HowToTeX.com.
+%%% Date: March 2012
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document properties and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% misc
+% font
+					% no pagenumbering
+			% no paragraph indentation
+
+
+% required packages (add your own)
+\usepackage{flowfram}% column layout
+% margins
+% figures
+\usepackage{url}% URLs
+\usepackage[usenames,dvipsnames]{xcolor}% color
+\usepackage{multicol}% columns env.
+	\setlength{\multicolsep}{0pt}
+\usepackage{paralist}% compact lists
+\usepackage{tikz}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define length commands
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+% frame setup (flowfram package)
+% left frame
+\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+	\newlength{\LeftMainSep}
+	\setlength{\LeftMainSep}{0.2\textwidth}
+	\addtolength{\LeftMainSep}{1\columnsep}
+ 
+% small static frame for the vertical line
+\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
+ 
+% content of the static frame
+\begin{staticcontents}{1}
+\hfill
+\tikz{%
+	\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0]
+	(0,0) -- (0,\textheight);}%
+\hfill\mbox{}
+\end{staticcontents}
+ 
+% right frame
+\addtolength{\LeftMainSep}{1.5pt}
+\addtolength{\LeftMainSep}{1\columnsep}
+\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+
+\newenvironment{AboutMe}{\ignorespaces\textbf{\color{RoyalBlue} About me}}{\Sep\ignorespacesafterend}
+	
+\newcommand{\CVSection}[1]{\Large\textbf{#1}\par
+	\SmallSep\normalsize\normalfont}
+
+\newcommand{\CVItem}[1]{\textbf{\color{RoyalBlue} #1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end_preamble
+\options final
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family ch
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Left frame
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset space \hfill{}
+
+\end_inset
+
+
+\begin_inset Graphics 
+	filename shrief.jpg
+	width 60col%
+
+\end_inset
+
+ 
+\begin_inset VSpace -7cm
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size small
+Shrief Abdelazeez 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+shrief.s.abdelazeez@eng1.cu.edu.eg
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Tel: 01158159448 
+\end_layout
+
+\begin_layout Standard
+
+\size small
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+framebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Right frame
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\size giant
+
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+color{RoyalBlue}
+\end_layout
+
+\end_inset
+
+ Shrief Abdelazeez
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\size larger
+Biomedical Engineer 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+
+\size larger
+
+\size normal
+
+\family default
+
+\series default
+
+\shape default
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% About me
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{AboutMe}
+\end_layout
+
+\end_inset
+
+ I am shrief Sayed Ahmed Abdelazeez. I am graduated from Faculty of Engineering Cairo University, System and Biomedical Engineering Department. I have finished my Premaster Subjects with GPA 4 and now i am preparing my master of science in biomedical engineering. My master thesis is applying deep learning for multi class classification of Whole Slide Images (WSI). I am interested in High performance computing, Data compression, Deep Learning, and Image Processing. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{AboutMe}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Experience
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+Work Experience
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Jan 2017 - present
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+RA and Demonstrator at Faculty of Engineering Cairo University. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Senior Calibration Engineer at Medical Equipment Calibration Lab (MECL). 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Deep learning course from Udacity using Pytorch. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+SmallSep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+July 2016 - August 2016, Service Engineer
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Service Engineer Trainee at Siemens Company. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Maintenance and installation processes for MRI, CT Equipment. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Jan 2015 - May 2015, C++ Course
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Smart Apps Company 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Object Oriented Programming Concepts. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Templates and Standard Template Library (STL). 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Aug 2014 - OCt 2014, C Programming Language Under Linux
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Smart Apps Company 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Working under linux operating environment using c programming language. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+July 2014 - Aug 2014, Service Engineer
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Trainee at El Gomhoria Company 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Monitors. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Spectrophotometer. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+X-ray. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+framebreak
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+framebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Education
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+Education
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Jan 2019 - present, Master of Science at Biomedical Engineering
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Applying Deep learning for Multi class classifications of Whole Slide Images (WSI). 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+SmallSep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+2017 - 2018, Premaster
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Finishing my premaster subjects. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+My GPA is 4. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+SmallSep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+2011 - 2016, Bachelor Degree - System & Biomedical Engineering
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Faculty of Engineering, Cairo University. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Excellent Degree with honor. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+Excellent Degree for Graduation Project. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+My rank is third of class. 
+\end_layout
+
+\begin_layout Itemize
+
+\size normal
+My GPA is 3.9. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Skills
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+Skills
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Programming Skills
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{multicols}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+3
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{compactitem}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+color{RoyalBlue}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\circ$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+C/C++ 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Qt Creator 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Matlab 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+MySQL 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+OpenMP 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+OpenCL 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Python 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Pytorch 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{compactitem}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+SmallSep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVItem{
+\end_layout
+
+\end_inset
+
+Computer software Tools
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{multicols}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+3
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{compactitem}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+color{RoyalBlue}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\circ$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Latex 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+Git 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+CMake 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+item 
+\end_layout
+
+\end_inset
+
+\SpecialChar ldots
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{compactitem}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+framebreak
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+framebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+Projects & Puplications
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+Graduation Project
+\series default
+:High Performance Distributed Volume Rendering on Heterogenous Platforms. 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+Paper in EMBC 2016
+\series default
+:
+\shape italic
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Parallel Generation of Digitally Reconstructed Radiographs on Heterogenous Multi-GPU Workstations
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+.
+\shape default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+Paper ISC 2015
+\series default
+:
+\shape italic
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Speaker Recognition Using MFCC and Vector Quatization
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\shape default
+, 2nd best paper. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% References
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+Language Skills
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+Arabic
+\series default
+: Native Language. 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+English
+\series default
+: Good reading, writing, and speaking. 
+\end_layout
+
+\begin_layout Enumerate
+
+\size normal
+
+\series bold
+Deutsch
+\series default
+: Beginner. 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+Sep
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% References
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+CVSection{
+\end_layout
+
+\end_inset
+
+References
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ References upon request.
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% End document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
