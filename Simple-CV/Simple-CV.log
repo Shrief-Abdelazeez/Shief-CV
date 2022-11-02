@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.4.25)  4 SEP 2022 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.4.25)  24 OCT 2022 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1260,18 +1260,18 @@ Package rerunfilecheck Info: File `Simple-CV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24543 strings out of 478582
- 437199 string characters out of 2860705
+ 436901 string characters out of 2860705
  787847 words of memory out of 3000000
  42342 multiletter control sequences out of 15000+600000
  483331 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,80p,852b,561s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,16n,80p,949b,561s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/b
 itstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/bitstrea/charte
 r/bchr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb>
 <C:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Miktex/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on Simple-CV.pdf (5 pages, 162897 bytes).
+Output written on Simple-CV.pdf (5 pages, 162954 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
